@@ -1,1 +1,26 @@
 /*fonte roboto 700 - 400 - 900  */
+
+*{
+
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+
+    display: flex;
+    justify-content: center;
+    background-color: #0a0a10;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0;
+    max-width: 414px;
+    min-height: 100vh;
+    
+}
