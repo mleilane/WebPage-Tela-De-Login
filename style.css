@@ -1,83 +1,81 @@
-/*fonte roboto 700 - 400 - 900  */
-
 * {
-  font-family: "Roboto", sans-serif;
-  margin: 0;
-  padding: 0;
+  font-family: "Roboto", sans-serif; /*define a fonte para todos os elementos */
+  margin: 0; /* remove as margens padrao */
+  padding: 0; /*remove  o preenchimento padrao */
   box-sizing: border-box;
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  background-color: #0a0a10;
+  display: flex; /*Define o layout do corpo como flexível */
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+  background-color: #030029; /* Define a cor de fundo */
 }
 
 main {
-  display: flex;
-  flex-direction: column;
-  padding: 15px 0;
-  max-width: 414px;
-  min-height: 100vh;
-  gap: 12px;
-  position: relative;
-  align-items: center;
+  display: flex; /* Define o layout principal como flexível */
+  flex-direction: column; /* Alinha os filhos em uma coluna */
+  padding: 15px 0; /* Adiciona preenchimento superior e inferior */
+  max-width: 414px; /* Define a largura máxima */
+  min-height: 100vh; /* Define a altura mínima como a altura da tela */
+  gap: 12px; /* Define o espaçamento entre os filhos */
+  position: relative; /* Define a posição como relativa para facilitar o posicionamento absoluto dos elementos internos */
+  align-items: center; /* Centraliza  verticalmente */
 }
 
 .blur {
-  width: 414px;
-  height: 280px;
-  background: #fff;
-  position: absolute;
-  z-index: -1;
+  width: 414px; /* Define a largura */
+  height: 280px; /* Define a altura */
+  background: #fff; /* Define a cor de fundo */
+  position: absolute; /* Define a posição absoluta */
+  z-index: -1; /* Coloca o elemento atrás de outros elementos - usado para criar o efeito de brilho do logo */
   background: #ffffff;
-  opacity: 0.25;
-  filter: blur(24px);
+  opacity: 0.25; /* Define a opacidade */
+  filter: blur(24px); /* Aplica um efeito de desfoque */
 }
 
 h1 {
-  font-weight: 700;
-  font-size: 28px;
-  line-height: 33px;
-  text-align: center;
-  color: #ffffff;
+  font-weight: 700; /* Define o peso da fonte */
+  font-size: 28px; /* Define o tamanho da fonte */
+  line-height: 33px; /* Define a altura da linha */
+  text-align: center; /* Alinha o texto ao centro */
+  color: #ffffff; /* Define a cor do texto */
 }
 
 .container-inputs {
-  display: flex;
-  flex-direction: column;
-  margin-top: 20px;
-  width: 100%;
+  display: flex; /* Define o layout dos inputs como flexível */
+  flex-direction: column; /* Alinha os filhos em uma coluna */
+  margin-top: 20px; /* Adiciona margem superior */
+  width: 100%; /* Define a largura total */
 }
 
 label {
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 22px;
-  letter-spacing: -0.408px;
-  color: rgba(255, 255, 255, 0.6);
-  margin-bottom: 4px;
-  margin-left: 4px;
+  font-weight: 400; /* Define o peso da fonte */
+  font-size: 13px; /* Define o tamanho da fonte */
+  line-height: 22px; /* Define a altura da linha */
+  letter-spacing: -0.408px; /* Define o espaçamento entre letras */
+  color: rgba(255, 255, 255, 0.6); /* Define a cor do texto */
+  margin-bottom: 4px; /* Adiciona margem inferior */
+  margin-left: 4px; /* Adiciona margem esquerda */
 }
 
 input {
-  width: 100%;
-  height: 42px;
-  margin-bottom: 8px;
-  background: transparent;
-  outline: none;
-  border: none;
+  width: 100%; /* largura */
+  height: 42px; /*altura  */
+  margin-bottom: 8px; /* margem inferior */
+  background: transparent; /* cor de fundo */
+  outline: none; /* remove a borda de contorno do elemento */
+  border: none; /*sem borda */
   border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 20px;
-  letter-spacing: -0.24px;
-  color: #ffffff;
-  padding-left: 4px;
+  font-weight: 400;  /*peso da fonte */
+  font-size: 17px; /*tamanho da letra */
+  line-height: 20px; /*altura da linha */
+  letter-spacing: -0.24px; /* espaçamento entre letras */
+  color: #ffffff; /* cor da letra */
+  padding-left: 4px; /* espaçamento a esquerda */
 }
 
 input::placeholder {
-  font-weight: 400;
+  font-weight: 400; 
   font-size: 17px;
   line-height: 20px;
   letter-spacing: -0.24px;
@@ -101,12 +99,12 @@ input::placeholder {
 }
 
 .btn-login:hover {
-  opacity: 0.8;
-  cursor: pointer;
+  opacity: 0.8; /*opacidade de 80% */
+  cursor: pointer; /*cursor de mão */
 }
 
 .btn-login:active {
-  opacity: 0.6;
+  opacity: 0.6; 
 }
 
 i {
@@ -150,24 +148,24 @@ a {
   font-weight: 900;
   font-size: 14px;
   line-height: 16px;
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6); /*define a cor do texto com um pouco de transparencia */
+  text-decoration: none; /*remove o sublinhado do texto */
 }
 
 a::after {
-  content: "";
-  width: 0;
-  height: 2px;
-  position: absolute;
+  content: "";/* Adiciona conteúdo após o link (neste caso, uma linha) */
+  width: 0; /* Define a largura inicial como 0 para esconder a linha */
+  height: 2px; /* Define a altura da linha */
+  position: absolute;  /* Define a posição absoluta para posicionar a linha */
   background: #d93856;
-  bottom: -3px;
-  left: 0;
-  transition: 0.3s ease;
+  bottom: -3px; /* Define a posição vertical da linha em relação ao link */
+  left: 0; /* Define a posição horizontal da linha em relação ao link */
+  transition: 0.3s ease; /* Adiciona uma transição suave para a animação */
 }
 
 a:hover::after {
   content: "";
-  width: 100%;
+  width: 100%; /* Define a largura da linha como 100% para estendê-la ao longo do link */
   height: 2px;
   position: absolute;
   background: #d93856;
