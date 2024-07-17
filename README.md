@@ -4,7 +4,7 @@
   
   O objetivo deste projeto é aplicar os conceitos de HTML e CSS na criação de uma tela de login estilizada.
   
-✅Deploy: https://mleilane.github.io/ClubPortfolio_TelaLogin/ <br>
+✅Deploy: https://mleilane.github.io/Tela_de_Login_App/ <br>
 
 <img src="https://github.com/mleilane/ClubPortfolio_TelaLogin/blob/main/img/mockup.png?raw=true" alt=mockup>
 
