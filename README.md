@@ -4,7 +4,7 @@
   
   O objetivo deste projeto é aplicar os conceitos de HTML e CSS na criação de uma tela de login estilizada.
   
-✅Deploy: <a href="https://mleilane.github.io/WebPage-Tela-De-Login/"> Tela de Login </a> <br>
+✅Deploy: <a href="https://ml-tela-login-app.netlify.app/"> Tela de Login </a> <br>
 
 <img src="https://github.com/mleilane/ClubPortfolio_TelaLogin/blob/main/img/mockup.png?raw=true" alt=mockup>
 
